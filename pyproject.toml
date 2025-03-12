@@ -1,0 +1,35 @@
+[project]
+name = "huggingface-course"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "arize-phoenix>=8.12.1",
+    "datasets>=3.3.2",
+    "dotenv>=0.9.9",
+    "gradio>=5.20.1",
+    "langchain>=0.3.20",
+    "langchain-community>=0.3.19",
+    "llama-index>=0.12.23",
+    "llama-index-callbacks-arize-phoenix>=0.4.0",
+    "llama-index-embeddings-ollama>=0.6.0",
+    "llama-index-llms-huggingface-api>=0.4.1",
+    "llama-index-llms-ollama>=0.5.3",
+    "llama-index-utils-workflow>=0.3.0",
+    "llama-index-vector-stores-chroma>=0.4.1",
+    "pandas>=2.2.3",
+    "pytest>=8.3.5",
+    "python-dotenv>=1.0.1",
+    "rank-bm25>=0.2.2",
+    "rich>=13.9.4",
+    "sentence-transformers>=3.4.1",
+    "smolagents[litellm,openai,transformers]>=1.10.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["huggingface_course"]
