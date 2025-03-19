@@ -40,6 +40,30 @@ Implements a Retrieval-Augmented Generation system:
 - Semantic search over structured data (CSV)
 - Enhanced response handling for missing information
 
+### Example Workflow (llamaindex_workflow.py)
+
+Demonstrates a multi-step workflow using LlamaIndex, handling events and processing results through a state machine.
+
+### Human Interaction (llamaindex_human.py)
+
+An example showcasing how to interact with LlamaIndex using human-like responses and processing.
+
+### Simple Example (llamaindex_simple.py)
+
+A straightforward example demonstrating basic functionalities of LlamaIndex without complex setups.
+
+### Tool Integration (llamaindex_tool.py)
+
+Shows how to integrate various tools with LlamaIndex for enhanced capabilities.
+
+### Advanced Workflow (llamaindex_workflow_2.py)
+
+An advanced example illustrating a more complex workflow with LlamaIndex, including additional features and integrations.
+
+### Spam Email Agent (langchain_firstagent.py)
+
+A simple example of an agent to classify emails as spam or not using LangChain.
+
 Example usage:
 
 ```bash
