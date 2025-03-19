@@ -19,3 +19,18 @@ wheels/
 ehthumbs.db
 Thumbs.db
 desktop.ini
+
+# credentials
+OAuth.json
+credentials.json
+token.json 
+
+# Huggingface
+.cache/
+.cache/huggingface/
+.cache/huggingface/hub/
+
+
+# ChromaDB
+chroma_db/
+test_result/
